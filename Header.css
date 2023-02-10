@@ -1,0 +1,109 @@
+.top-header{
+    background-color: #333333;
+    text-align: center;
+    color: white;
+  
+   
+}
+.top-header p{
+    padding: 8px 0px;
+    margin-bottom: 0;
+}
+.top-header p:hover{
+    color: #BB7B1C;
+    cursor: pointer;
+    
+}
+.top-header a{
+    color: white;
+    text-decoration: none;
+}
+
+/* ================================ header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    padding: 3px 40px;
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    color: black;
+    z-index: 99;
+}
+.headerBackgrund{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 20px  rgba(0, 0, 0, .5);
+    transition: background-color .5s linear ;
+    position: sticky;
+    top: 0;
+   
+}
+.left-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-header .menu-icon{
+    margin-left: 8px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.left-header .menu-icon:hover{
+    color: #BB7B1C;
+}
+.middle-header img{
+    width: 80px;
+
+}
+.right-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-header .right-icon{
+    margin: 0px 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.right-header .right-icon:hover{
+    color: #BB7B1C;
+}
+
+
+/* ======================== media  */
+@media(max-width: 1000px){
+    .header{
+        position: sticky;
+        margin-bottom: 10px;
+        color: black;
+        border-bottom: 1px solid gray;
+        top: 0;
+        padding: 0px 10px;
+    }
+}
+
+@media(max-width : 650px){
+    .top-header p{
+       font-size: 13px;
+    }
+    .header{
+        padding: 3px 10px;
+    }
+}
+@media(max-width : 400px){
+    .top-header p{
+       font-size: 10px;
+    }
+    .right-header .right-icon{
+        margin: 0px 1px;
+        font-size: 17px;
+    }
+    .left-header .menu-icon{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+}

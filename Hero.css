@@ -1,0 +1,38 @@
+.slider{
+    position: absolute;
+    top: 36px;
+    height: 95vh;
+    color:white;
+    margin-bottom: 95vh;
+}
+.slider-btn{
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #BB7B1C;
+}
+
+/* =================== media  */
+@media(max-width : 450px){
+    .slider-btn{
+        padding: 5px 15px;
+        font-size: 15px;
+        
+    }
+}
+@media(max-width : 380px){
+    .slider-btn{
+        padding: 1px 10px;
+        font-size: 15px;
+        
+    }
+}
+@media(max-width : 300px){
+    .slider-btn{
+        padding: 0px 10px;
+        font-size: 15px;
+        
+    }
+}

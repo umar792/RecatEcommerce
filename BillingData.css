@@ -1,0 +1,59 @@
+.billing{
+    margin: 80px 0px;
+    padding: 20px 50px;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    gap: 30px;
+}
+.billing h2{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 0px;
+    border-bottom: 2px solid #BB7B1C;
+    margin: 20px 0px;
+}
+.billing form input{
+    display: block;
+    padding: 10px 5px;
+    border: 1px solid gray;
+    outline: none;
+    width: 100%;
+    margin: 10px 0px;
+}
+.username{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.right-bill-data .total{
+    border-bottom: 1px solid rgb(199, 189, 189);
+    margin: 10px 0px;
+}
+.discription p{
+    margin-bottom: 0;
+    color: black;
+}
+.discription .dis{
+    margin: 15px 0px;
+}
+/* ============== MEDIA  */
+
+@media(max-width : 990px){
+    .billing{
+        grid-template-columns: 1fr;
+        
+    }
+}
+@media(max-width : 750px){
+    .billing{
+        margin: 30px 0px;
+    }
+    .username{
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width: 450px){
+    .billing{
+        padding: 20px 10px;
+    }
+}

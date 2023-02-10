@@ -1,0 +1,26 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    margin: 80px 0px;
+  }
+  .error p {
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .error button {
+    background-color: #BB7B1C;
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    margin: 15px 0px;
+  }
+  @media (max-width: 360px) {
+    .error h2 {
+      font-size: 32px;
+    }
+  }

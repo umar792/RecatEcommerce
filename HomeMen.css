@@ -1,0 +1,75 @@
+.Home-men{
+    margin: 60px 0px;
+    padding: 20px 0px;
+}
+.men-data{
+    text-align: center;
+}
+.men-data h2{
+    font-weight: 900;
+    color: #333333;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.men-data p{
+    color: gray;
+    
+}
+
+/* ===================== men-flex  */
+
+.men-flex{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 20px 120px;
+}
+.men-flex img{
+  max-width: 100%;
+  cursor: pointer;
+}
+.men-flex p{
+    text-align: center;
+   font-weight: bold;
+    font-size: 20px;
+}
+
+/* ================ grid-three-coloum  */
+.grid-three-coloum{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+/* =============== media  */
+
+@media(max-width: 1350px){
+    .men-flex{
+        padding: 20px 100px;
+    }
+}
+@media(max-width: 1200px){
+    .men-flex{
+        padding: 20px 80px;
+    }
+}
+@media(max-width: 1150px){
+    .men-flex{
+        padding: 20px 50px;
+    }
+}
+@media(max-width: 1100px){
+    .men-flex{
+        padding: 20px 10px;
+    }
+}
+@media(max-width: 775px){
+    .men-flex{
+        gap: 10px;
+    }
+}
+@media(max-width: 575px){
+    .men-flex{
+        grid-template-columns: 1fr;
+    }
+}
